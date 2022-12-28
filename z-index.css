@@ -1,0 +1,36 @@
+body{
+    top: 300px;
+}
+.box{
+    width: 7rem;
+    height: 4rem;
+    border: 1px solid black;
+}
+.box1{
+    background-color: brown;
+    opacity: 0.5;
+    position: absolute;
+    left: 50px;
+
+}
+.box2{
+    background-color: rgb(42, 165, 165);
+        position: absolute;
+        left: 70px;
+        top: 20px; 
+        z-index: 1;
+
+}
+.box3{
+    background-color: rgb(165, 116, 42);
+    position: absolute;
+    z-index: -1;
+
+}
+.box4{
+    position: absolute;
+    background-color: rgb(136, 42, 165);
+    left: 60px;
+    top: 35px;
+    z-index: 6;
+}

@@ -1,0 +1,27 @@
+
+.box{
+    width: 22rem;
+    height: 7rem;
+    margin-bottom: 1rem;
+    border: 2px solid red;
+}
+.box1{
+    background-color: brown;
+    overflow: visible;
+   
+}
+.box2{
+    background-color: rgb(42, 165, 165);
+    overflow: hidden;
+
+}
+.box3{
+    background-color: rgb(165, 116, 42);
+    overflow: scroll;
+  
+}
+.box4{
+    background-color: rgb(136, 42, 165);
+    overflow: auto;
+
+}
